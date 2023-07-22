@@ -1,0 +1,214 @@
+section.contact{
+    background-color: black;
+    width: 100%;
+    font-family: "saira", sans-serif;
+}
+
+section.contact h1{
+    font-family: "saira condensed", sans-serif;
+    display: block;
+    font-size: 8vw;
+    color: white;
+    text-align: center;
+    padding: 10vw 4vw;
+    text-transform: uppercase;
+}
+
+section.contact div.contact-wrapper{
+    display: block;
+    /* text-align: center; */
+    width: 90%;
+    max-width: 1024px;
+    color: white;
+    margin: 0 auto;
+}
+
+section.contact div.contact-wrapper form{
+    text-align: center;
+    font-size: 4vw;
+}
+
+section.contact div.contact-wrapper input,
+section.contact div.contact-wrapper textarea,
+section.contact div.contact-wrapper button{
+    font-family: "saira", sans-serif;
+    width: 100%;
+    padding: 3vw;
+    font-size: 4.5vw;
+    margin-bottom: 4vw;
+}
+
+section.contact div.contact-wrapper textarea{
+    height: 34vw;
+}
+
+section.contact div.contact-wrapper button{
+    font-size: 4.5vw;
+    padding-top: 3.2vw;
+    padding-bottom: 3.2vw;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+section.contact div.socials{
+    width: 85%;
+    margin: 0 auto;
+    padding: 10vw 0;
+}
+
+section.contact div.social{
+    height: 15vw;
+    margin-top: 3vw;
+    max-height: 72px;
+    
+}
+
+section.contact div.social:nth-of-type(1){
+    margin-top: 0;
+}
+
+section.contact div.social span{
+    float: left;
+    line-height: 15vw;
+    font-size: 4.5vw;
+    padding-left: 4vw;
+    max-height: 72px;
+}
+
+section.contact div.social img{
+    float: left;
+    /* padding-right: 7vw; */
+    height: 15vw;
+    max-height: 72px;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+
+footer p{
+    font-family: "saira", sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 533px) {
+
+    section.contact div.socials{
+        width: 90%;
+        padding: 5vw 0;
+        font-size: 0; 
+    }
+
+    section.contact div.social{
+        display: inline-block;
+        height: 10vw;
+        width: 50%;
+        margin-top: 1.5vw;
+    }
+
+    section.contact div.social span{
+        float: left;
+        line-height: 8vw;
+        font-size: 3vw;
+        padding-left: 2vw;
+    }
+    
+
+    section.contact div.social img{
+        float: left;
+        height: 10vw;
+    }
+}
+
+@media (min-width: 720px) {
+
+    section.contact div.social img{
+        height: 72px;
+    }
+
+    section.contact div.social span{
+        line-height: 72px;
+        font-size: 23px;
+        padding-left: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    section.contact h1{
+        font-size: 60px;
+        padding: 40px 0;
+    }
+
+    section.contact div.contact-wrapper form,
+    section.contact div.contact-wrapper div.socials{
+        float: left;
+        width: 50%;
+    }
+
+    section.contact div.contact-wrapper form{
+        font-size: 0;
+    }
+
+    section.contact div.contact-wrapper input,
+    section.contact div.contact-wrapper textarea,
+    section.contact div.contact-wrapper button{
+        font-size: 24px;
+        padding: 18px;
+        margin-bottom: 20px;
+    }   
+
+    section.contact div.contact-wrapper textarea{
+        margin-bottom: 20px;
+    }
+
+    section.contact div.contact-wrapper button{
+        transition: 0.4s;
+    }
+
+    section.contact div.contact-wrapper button:hover{
+        background-color: white;
+        color: black;
+    }
+
+section.contact div.contact-wrapper textarea{
+        height: 190px;
+    }
+
+    section.contact div.socials{
+        padding: 0 0 0 30px;
+    }
+
+    section.contact div.social{
+        display: block;
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    section.contact div.social:nth-of-type(1){
+        margin-top: 15px;
+    }
+
+    section.contact div.social img{
+        float: left;
+    }
+
+    section.contact div.social span{
+        float: left;
+        line-height: 72px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    footer p{
+        font-size: 2vh;
+    }
+}

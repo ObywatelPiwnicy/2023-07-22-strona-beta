@@ -1,0 +1,54 @@
+section.motto{
+    background-image: url("../img/motto.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "saira", sans-serif;
+    
+}
+
+section.motto div.motto-wrapper{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 63, 114, 0.5);
+}
+
+section.motto h1{
+    font-family: "saira condensed", sans-serif;   
+    font-size: 5vh;
+    padding: 7vh 2vh 0vh 2vh;
+    text-transform: uppercase;
+}
+
+section.motto p.motto-text{
+    font-size: 4vh;
+    margin: 10vh 4vw 0 4vw;
+    line-height: 120%;
+    display: inline-block;
+}
+
+section.motto p.author{
+    font-size: 2.8vh;
+    padding-top: 4vh;
+    padding-bottom: 7vh;
+}
+
+@media (orientation: landscape){
+    section.motto h1{
+        font-size: 6vh;
+    }
+
+    section.motto p.motto-text{
+        font-size: 4.8vh;
+        width: 80%;
+        margin-top: 10vh;
+    }
+
+    section.motto p.author{
+        font-size: 3.7vh;
+        padding-top: 5vh;
+    }
+}

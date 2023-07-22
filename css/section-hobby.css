@@ -1,0 +1,86 @@
+section.hobby h1{
+    font-family: "saira condensed", sans-serif;
+    font-size: 6vw;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5vh 2vw;
+}
+
+section.hobby div.hobby-item:nth-of-type(1){
+    background-image: url("../img/hobby/hobby1.jpg");
+}
+
+section.hobby div.hobby-item:nth-of-type(2){
+    background-image: url("../img/hobby/hobby2.jpg");
+}
+
+section.hobby div.hobby-item:nth-of-type(3){
+    background-image: url("../img/hobby/hobby3.jpg");
+}
+
+section.hobby div.hobby-item:nth-of-type(4){
+    background-image: url("../img/hobby/hobby4.jpg");
+}
+
+section.hobby div.hobby-item{
+    height: 25vh;
+    font-family: "saira", sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+
+section.hobby div.hobby-item p{
+    color: white;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 25vh;
+    font-size: 7vw;
+    text-shadow: 0 0 4px black;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+@media (min-width: 533px) {
+    section.hobby div.hobby-item{
+        float: left;
+        width: 50%;
+        height: 40vh;
+    }
+
+    section.hobby div.hobby-item p{
+        font-size: 3.2vw;
+        line-height: 40vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    section.hobby div.hobby-item p{
+        opacity: 0;
+        transition: 0.4s;
+    }
+
+    section.hobby div.hobby-item p:hover{
+        opacity: 1;
+    }
+
+    section.hobby div.hobby-item{
+        background-size: 100%;
+        transition: 0.4s;
+    }
+
+    section.hobby div.hobby-item:hover{
+        background-size: 130%;
+    }
+}
+
+@media (min-width: 1640px) {
+    section.hobby h1{
+        font-size: 8vh;
+    }
+    section.hobby div.hobby-item p{
+        font-size: 4.3vh;
+    }
+}
